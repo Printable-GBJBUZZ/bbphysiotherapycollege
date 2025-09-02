@@ -245,7 +245,7 @@ export function Header() {
             {/* College Name - Center */}
             <div className="flex-1 text-center px-4 hidden lg:block">
               <Link href="/">
-                <h1 className="text-2xl xl:text-3xl 2xl:text-4xl font-bold font-heading transition-colors duration-300 leading-tight text-black">
+                <h1 className="text-2xl uppercase xl:text-3xl 2xl:text-4xl font-bold font-heading transition-colors duration-300 leading-tight text-black">
                   Bhojrajji Bhondekar Physiotherapy College
                 </h1>
                 <p className="text-base xl:text-lg 2xl:text-xl font-sans transition-colors duration-300 leading-tight mt-1 text-black">
@@ -257,7 +257,7 @@ export function Header() {
             {/* Mobile College Name - Visible on smaller screens */}
             <div className="flex-1 text-center px-2 lg:hidden">
               <Link href="/">
-                <h1 className="text-lg sm:text-xl font-bold font-heading transition-colors duration-300 leading-tight text-black">
+                <h1 className="text-lg uppercase sm:text-xl font-bold font-heading transition-colors duration-300 leading-tight text-black">
                   BBPC Physiotherapy College
                 </h1>
                 <p className="text-sm sm:text-base font-sans transition-colors duration-300 leading-tight text-black">

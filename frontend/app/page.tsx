@@ -458,10 +458,10 @@ export default function HomePage() {
           <div className="relative z-10 container mx-auto px-4 text-center text-white">
             <div className="max-w-6xl mx-auto space-y-8">
               {/* Main heading */}
-              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight animate-slide-in-left font-heading">
+              <h1 className="text-3xl uppercase sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight animate-slide-in-left font-heading">
                 Bhojrajji Bhondekar
                 <br />
-                <span className="bg-gradient-to-r from-teal-300 via-ocean-300 to-teal-200 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r uppercase from-teal-300 via-ocean-300 to-teal-200 bg-clip-text text-transparent">
                   Physiotherapy College
                 </span>
               </h1>
